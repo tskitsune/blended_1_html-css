@@ -1,1 +1,4 @@
 /* Сюди додавай стилі частинки Reviews */
+.reviews-title h1, p{
+    text-align: center;
+}
