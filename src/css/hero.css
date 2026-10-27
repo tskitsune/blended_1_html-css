@@ -1,1 +1,37 @@
 /* Сюди додавай стилі частинки Hero */
+.hero-section {
+
+}
+.hero-title {
+    font-weight: 500;
+    font-size: 80px;
+            
+    /* line-height: 80px; */
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+}
+.hero-text {
+    font-weight: 300;
+    font-size: 16px;
+    
+    /* line-height: 22px; */
+    line-height: 1.4;
+    text-align: center;
+    color: #b4b7ba;
+}
+.hero-btm {
+    font-weight: 500;
+    font-size: 18px;
+    
+    /* line-height: 20px; */
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    cursor: pointer;
+}
+.hero-btm:hover,
+.hero-btm:focus {
+    background-color: #1b414b;
+}
