@@ -1,4 +1,7 @@
 /* Сюди додавай стилі частинки Reviews */
-.reviews-title h1, p{
-    text-align: center;
+.img-reviews {
+ 
+  overflow: hidden;
+  border-radius: 72px;
+  
 }
