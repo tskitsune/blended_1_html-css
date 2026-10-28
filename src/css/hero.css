@@ -1,6 +1,7 @@
 /* Сюди додавай стилі частинки Hero */
 .hero-section {
-
+    padding-top: 250px;
+    padding-bottom: 200px;
 }
 .hero-title {
     font-weight: 500;
@@ -11,6 +12,9 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
+
+    width: 1001px;
+    margin: 0 auto 24px;
 }
 .hero-text {
     font-weight: 300;
@@ -20,6 +24,9 @@
     line-height: 1.4;
     text-align: center;
     color: #b4b7ba;
+
+    width: 597px;
+    margin: 0 auto 48px;
 }
 .hero-btm {
     font-weight: 500;
@@ -30,7 +37,13 @@
     letter-spacing: -0.02em;
     color: #fbfbfb;
     cursor: pointer;
+
+    display: block;
+    width: 179px;
+    height: 52px;
+    margin: 0 auto 200px;
 }
+
 .hero-btm:hover,
 .hero-btm:focus {
     background-color: #1b414b;
