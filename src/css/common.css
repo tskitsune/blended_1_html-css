@@ -11,15 +11,26 @@ a {
   color: currentColor;
 }
 
+p {
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
 }
 
 button {
   cursor: pointer;
 }
 
+
+/* Загальнi класси */
 .container {
   width: 1180px;
   padding: 0 50px;
