@@ -1,3 +1,44 @@
 .about-list {
     background-color: #1B414B;
+    padding: 90px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 44px;
+    flex-direction: row;
+    border-radius: 24px;
+}
+.about-list-item {
+    display: flex;
+    gap: 18px;
+    width: 286px;
+    flex-direction: column;
+
+}
+.about-list-item > h2 {
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: -0.05em;
+    line-height: 100%;
+    color: #fbfbfb;
+}
+
+.container-about {
+    display: flex;
+    gap: 32px;
+}
+.about-text {
+    font-weight: 400;
+font-size: 13px;
+line-height: 115%;
+letter-spacing: -0.02em;
+color: #b4b7ba;
+}
+.about-line {
+    border-radius: 18px;
+width: 286px;
+height: 2px;
+background: rgba(251, 251, 251, 0.1);
+}
+.about-image {
+    border-radius: 24px;
 }
