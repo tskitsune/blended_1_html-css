@@ -4,6 +4,10 @@
   border-radius: 72px;
 }
 
+.title-name {
+  padding-top: 24px;
+}
+
 .title-reviews {
   width: 854px;
   text-align: center;
@@ -19,7 +23,6 @@
 .text-under-title {
   text-align: center;
   width: 571px;
-  margin-bottom: 75px;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -29,15 +32,27 @@
   margin-left: auto;
 }
 .list-reviews {
-  padding: 0;
+  padding-top: 75px;
+  padding-bottom: 150px;
   display: flex;
   text-align: center;
+  justify-content: center;
   gap: 26px;
   color: rgba(4, 3, 6, 1);
   font-size: 18px;
   line-height: 110%;
   letter-spacing: -0.36px;
 }
+
+.list-reviews-li {
+
+  width: 376px;
+  padding: 32px 28px;
+  border-radius: 24px;
+  background-color: rgba(251, 251, 251, 1);
+}
+
+
 .text-under-name {
   color: rgba(152, 152, 153, 1);
   padding-top: 8px;
@@ -47,16 +62,6 @@
   letter-spacing: -0.32px;
  width: 320px;
 }
-.list-reviews-li {
 
-  width: 376px;
-  padding: 32px 28px;
-  border-radius: 24px;
-  background-color: rgba(251, 251, 251, 1);
-}
-.title-name {
-  padding-top: 24px;
-}
-.reviews {
-  margin-bottom: 150px;
-}
+
+
