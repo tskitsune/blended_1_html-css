@@ -9,6 +9,10 @@
     margin-top: 32px;
     width: 1080px;
     height: 48px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .logo {
