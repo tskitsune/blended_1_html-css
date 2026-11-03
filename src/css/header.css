@@ -52,7 +52,25 @@
     box-sizing: border-box;
 }
 
-.btn.hover,
+.btn:hover,
 .btn:focus {
     background-color: rgba(27, 65, 75, 1);
+}
+
+.social-icons-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0;
+}
+
+.header-icons {
+    color: #1b414b;
+}
+
+.header-icons:hover,
+.header-icons:focus {
+    color: #062730;
 }
