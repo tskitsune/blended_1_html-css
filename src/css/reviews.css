@@ -77,14 +77,13 @@ height: 282px;
   letter-spacing: -0.32px;
  width: 303px;
 }
-
-.sr-only-second{
-  display: none;
+.list-reviews-li:last-child{
+display: none;
+}
+.list-reviews-li:nth-child(2){
+  display: none
 }
 
-.sr-only{
-  display: none;
-}
 
 
 
@@ -116,10 +115,7 @@ display: flex;
     padding: 32px 8px;
     gap: 8px;
    }
-.sr-only{
-  display: none;
-}
-.sr-only-second{
+.list-reviews-li:nth-child(2){
   display: block;
 }
 .text-under-title{
@@ -207,4 +203,7 @@ display: flex;
  width: 320px;
 }
 
+.list-reviews-li:nth-child(3){
+  display: block;
+}
 }
