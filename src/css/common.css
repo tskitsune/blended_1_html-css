@@ -23,6 +23,7 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 button {
@@ -46,4 +47,27 @@ button {
   font-size: 48px;
   line-height: 100%;
   letter-spacing: -0.02em;
+}
+
+@media (min-width: 768px) {
+  .container{
+    width: 768px;
+    padding: 0 32px;
+    margin: 0 auto;
+  }
+  .section {
+  padding: 150px 0;
+}
+}
+
+
+@media (min-width: 1158px) {
+  .container {
+  width: 1180px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+.section {
+  padding: 75px 0;
+}
 }
